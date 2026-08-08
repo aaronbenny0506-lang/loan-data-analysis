@@ -72,7 +72,7 @@ columns out of 45,015 total rows.
 | Std. Deviation | 8,496,802.40 |
 
 **Important finding:** the mean and standard deviation are wildly distorted
-by a tiny number of corrupted rows — two records list a `loan_amnt` of
+by a tiny number of corrupted rows - two records list a `loan_amnt` of
 **1,000,000,000** and **1,500,000,000**, far outside any realistic loan size
 (typical values in the dataset range from $500 to ~$35,000). A similar issue
 appears in `cb_person_cred_hist_length`, where one row has a value of
@@ -93,7 +93,7 @@ readability (outliers are kept in all statistical calculations, only
 excluded from this one plot).
 
 **Observation:** loan amount rises with income at the lower end but plateaus
-—most applicants, regardless of income, request loans clustered at common
+,most applicants, regardless of income, request loans clustered at common
 "round number" amounts (e.g. $5,000, $10,000, $15,000, $20,000, $25,000),
 visible as horizontal bands in the plot. Income alone does not appear to be
 a strong predictor of loan size.
