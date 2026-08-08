@@ -12,11 +12,6 @@ loan applicant dataset. The analysis covers:
 - Visualizing the relationship between two numeric features
 - Visualizing correlation between all numeric features via a heatmap
 
-> **Note on the "price" column:** The task template refers to a `price`
-> column, but this dataset (`loan.csv`) is a loan-applicant dataset and has
-> no such column. The nearest equivalent, the numeric value that varies per
-> record and drives the loan, is **`loan_amnt`** (the requested loan
-> amount), so that column is used wherever "price" was specified.
 
 ## 🛠 Libraries Used
 
@@ -99,7 +94,7 @@ excluded from this one plot).
 ![Relationship between person_income and loan_amnt](relationship_scatter.png)
 
 **Observation:** loan amount rises with income at the lower end but plateaus
-—most applicants, regardless of income, request loans clustered at common
+,most applicants, regardless of income, request loans clustered at common
 "round number" amounts (eg: $5,000, $10,000, $15,000, $20,000, $25,000),
 visible as horizontal bands in the plot. Income alone does not appear to be
 a strong predictor of loan size.
