@@ -12,12 +12,7 @@ loan applicant dataset. The analysis covers:
 - Visualizing the relationship between two numeric features
 - Visualizing correlation between all numeric features via a heatmap
 
-> **Note on the "price" column:** The task template refers to a `price`
-> column, but this dataset (`loan.csv`) is a loan-applicant dataset and has
-> no such column. The nearest equivalent, the numeric value that varies per
-> record and drives the loan, is **`loan_amnt`** (the requested loan
-> amount) so that column is used wherever "price" was specified.
-
+> 
 ## 🛠 Libraries Used
 
 | Library | Purpose |
